@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/exam.css">
+</head>
+<body>
+<header>
+    <h1>Chemistry, Module 1</h1>
+    <div class="actions">
+        <a href="#">Directions</a>
+        <a href="#">Highlights & Notes</a>
+        <a href="#">More</a>
+    </div>
+</header>
+
+<div class="timer">Time left: <span id="timer">15:00</span></div>
+
+<div class="container" id="quiz-container">
+    <div class="question-panel">
+        <p id="question-text">Question text will appear here.</p>
+    </div>
+    <div class="answer-panel">
+        <h2 id="question-heading">Choose the correct answer:</h2>
+        <ul id="answer-options" onclick="selectAnswer(event)">
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <div class="nav">Question <span id="current-question">1</span> of <span id="total-questions">10</span></div>
+    <button class="next-button" id="next-button" onclick="nextQuestion()">Next</button>
+    <button class="submit-button" id="submit-button" style="display: none;" onclick="submitQuiz()">Submit</button>
+    <button class="back-button" id="back-button" onclick="goBack()" style="display: none;">Back to Main Page</button>
+</footer>
+<script src="script/script-test.js"></script>
+</body>
+</html>

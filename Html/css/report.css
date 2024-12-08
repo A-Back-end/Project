@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    position: relative;
+    top: 120px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 25px;
+    padding-bottom: 100px;
+}
+
+.header {
+    text-align: center;
+    color: #4a90e2;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.name-placeholder {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+.score-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.score-section .score {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.score-section .score-range {
+    font-size: 24px;
+    color:#888888;
+}
+
+.score-section .percentile {
+    font-size: 18px;
+    color: #888888;
+}
+
+.essay-scores, .section-scores, .test-scores {
+    margin-bottom: 20px;
+}
+
+.essay-scores .score, .section-scores .score, .test-scores .score {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.essay-scores .range, .section-scores .range, .test-scores .range {
+    font-size: 18px;
+    color: #888888;
+}
+
+.section-scores .benchmark {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #4a90e2;
+}
+
+.section-scores .benchmark i {
+    color: #4a90e2;
+    margin-left: 10px;
+}
+
+.divider {
+    border-top: 2px solid gray;
+    margin: 20px 0;
+}
+
+
+a{  
+    width: none;
+    padding: 15px;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    border: 1px solid #4a90e2;
+    color: #4a90e2;
+    border-radius: 15px;
+    transition: color 3s ease;
+    transition: background-color 1s ease;
+}
+
+.btn:hover{
+    background-color: #4a90e2;
+    color: black;
+}
